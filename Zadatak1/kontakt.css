@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("Resursi/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.header {
+  width: 100%;
+
+  padding: 10px;
+  margin: 0px;
+  /* position: fixed;*/
+
+  background-image: linear-gradient(#304146, #033747);
+}
+.header a {
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+}
+.forma legend {
+  font-size: medium;
+  color: white;
+}
+.forma hr {
+  color: white;
+  width: 30em;
+}
+.forma label {
+  color: white;
+}
+.forma input {
+  position: fixed;
+  left: 5em;
+}
+.forma textarea {
+  left: 5em;
+  position: fixed;
+}
+.forma select {
+  left: 5em;
+  position: fixed;
+}
